@@ -1,0 +1,11 @@
+1.Whimsical Toys Inc (WTI) needs to record the names  of all its employees.  Every  month, an employee  will be chosen at random from these  records to receive  a free toy.
+(Answer)-->Use "list", store the employees in list and to choose random employee between range 0 to (size()-1).
+
+2.WTI has decided that each new product will be named after an employee  but only first names  will be used,  and each name will be used  only once. Prepare  a list of unique  first names.
+(Answer)-->Use "Set". store first names in set as this interface does not allow duplicate values so all the first names will be unique. 
+
+3.WTI decides that it only wants to use  the most popular names  for its toys. Count up the number of employees  who have each first name.
+(Answer)-->Use "map". In Map key will be first name and its value will be number of employees with that first.
+
+4.WTI acquires  season tickets  for the local lacrosse  team, to be shared by employees.  Create  a waiting list for this popular sport
+(Answer)-->Use "Queue". whenever any employees joins the waiting list it will be added in the last position, and employee who gets ticket will can be removed from the list
